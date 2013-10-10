@@ -1,0 +1,6 @@
+template: Hello, %s!
+defaultName: green
+
+http:
+  rootPath: /service/*  # Default is /*
+
