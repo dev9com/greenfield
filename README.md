@@ -15,6 +15,13 @@ To run and view on your localhost:8080, just do...
 
 Start hacking!  :)
 
+This project assumes that you have installed MongoDB.  I do my work primarily on Mac OS X and Windows 8.
+
+For Mac OS X, I install MongoDB via [Homebrew](http://brew.sh/).
+
+    brew update
+    brew install mongodb
+
 This project is based on a combination of the following:
 
 * [Apache Maven](http://maven.apache.com/)
@@ -22,6 +29,11 @@ This project is based on a combination of the following:
 * [Twitter](Bootstrap http://getbootstrap.com/)
 * [Angular Seed](https://github.com/angular/angular-seed)
 * [AngularJS](http://angularjs.org/)
+
+Here are a few of the main libraries of interest:
+
+* [Jackson](https://github.com/FasterXML/jackson)
+* [MongoJack](http://mongojack.org/)
 
 To be added: 
 
