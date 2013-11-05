@@ -17,10 +17,11 @@ Start hacking!  :)
 
 This project assumes that you have installed MongoDB.  I do my work primarily on Mac OS X and Windows 8.
 
-For Mac OS X, I install MongoDB via [Homebrew](http://brew.sh/).
+For Mac OS X, I install MongoDB and Node (NPM) via [Homebrew](http://brew.sh/).
 
     brew update
     brew install mongodb
+    brew install node
 
 This project is based on a combination of the following:
 
@@ -29,6 +30,14 @@ This project is based on a combination of the following:
 * [Twitter](Bootstrap http://getbootstrap.com/)
 * [Angular Seed](https://github.com/angular/angular-seed)
 * [AngularJS](http://angularjs.org/)
+* [Yeoman](http://yeoman.io/)
+
+npm install -g generator-angular  # install generator
+yo angular                        # scaffold out a AngularJS project
+bower install angular-ui          # install a dependency for your project from Bower
+grunt test                        # test your app
+grunt server                      # preview your app
+grunt                             # build the application for deployment
 
 Here are a few of the main libraries of interest:
 
