@@ -3,6 +3,7 @@ defaultName: green
 
 http:
   rootPath: /service/*  # Default is /*
+  useDirectBuffers: false  # Support local live reload
 
 # Logging settings.
 logging:
