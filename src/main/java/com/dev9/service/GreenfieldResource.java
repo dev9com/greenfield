@@ -1,6 +1,6 @@
-package com.dynacrongroup.service;
+package com.dev9.service;
 
-import com.dynacrongroup.data.SimpleData;
+import com.dev9.data.SimpleData;
 import com.google.common.base.Optional;
 import com.yammer.metrics.annotation.Timed;
 

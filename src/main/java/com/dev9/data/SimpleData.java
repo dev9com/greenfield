@@ -1,4 +1,4 @@
-package com.dynacrongroup.data;
+package com.dev9.data;
 
 public class SimpleData {
 

@@ -1,4 +1,4 @@
-package com.dynacrongroup.service;
+package com.dev9.service;
 
 import com.yammer.dropwizard.config.Configuration;
 import com.fasterxml.jackson.annotation.JsonProperty;

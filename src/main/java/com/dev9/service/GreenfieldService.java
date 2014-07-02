@@ -1,4 +1,4 @@
-package com.dynacrongroup.service;
+package com.dev9.service;
 
 import com.yammer.dropwizard.Service;
 import com.yammer.dropwizard.assets.AssetsBundle;

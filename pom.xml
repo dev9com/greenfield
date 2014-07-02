@@ -1,18 +1,18 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.dynacrongroup</groupId>
+    <groupId>com.dev9</groupId>
     <artifactId>greenfield</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <url>http://www.dynacrongroup.com/</url>
+    <url>http://www.dev9.com/</url>
     <name>greenfield</name>
     <description>Template Greenfield Java 2013</description>
     <inceptionYear>2013</inceptionYear>
 
     <scm>
-        <connection>scm:git:https://github.com/dynacron-group/greenfield.git</connection>
-        <developerConnection>scm:git:https://github.com/dynacron-group/greenfield.git</developerConnection>
-        <url>scm:git:https://github.com/dynacron-group/greenfield.git</url>
+        <connection>scm:git:https://github.com/dev9com/greenfield.git</connection>
+        <developerConnection>scm:git:https://github.com/dev9com/greenfield.git</developerConnection>
+        <url>scm:git:https://github.com/dev9com/greenfield.git</url>
     </scm>
 
     <prerequisites>
@@ -25,12 +25,12 @@
 
     <issueManagement>
         <system>GitHub</system>
-        <url>https://github.com/dynacron-group/greenfield/issues/</url>
+        <url>https://github.com/dev9com/greenfield/issues/</url>
     </issueManagement>
 
     <organization>
-        <name>Dynacron Group</name>
-        <url>http://www.dynacrongroup.com/</url>
+        <name>Dev9</name>
+        <url>http://www.dev9.com/</url>
     </organization>
 
     <licenses>
@@ -142,7 +142,7 @@
                                         implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
                                 <transformer
                                         implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                                    <mainClass>com.dynacrongroup.service.GreenfieldService</mainClass>
+                                    <mainClass>com.dev9.service.GreenfieldService</mainClass>
                                 </transformer>
                             </transformers>
                             <createDependencyReducedPom>false</createDependencyReducedPom>
